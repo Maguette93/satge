@@ -1,0 +1,20 @@
+
+.myDiv {
+    border: 2px outset black;
+    background-color: white;    
+    text-align: center;
+  }
+
+  fieldset {
+    background-color:orange;
+  }
+  
+  legend {
+    background-color:orange ;
+    color: black;
+    padding: 2px 10px;
+  }
+  
+ 
+ 
+ 
