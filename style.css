@@ -1,4 +1,8 @@
-
+body {
+         
+  background-color:lightblue;
+ 
+}
 .myDiv {
     border: 2px outset black;
     background-color: white;    
@@ -6,15 +10,72 @@
   }
 
   fieldset {
-    background-color:orange;
+    background-color:lightblue;
+    
+    
   }
   
-  legend {
-    background-color:orange ;
+
+  label
+{
+	display: block;
+	width: 150px;
+    float: left;
+   
+}
+
+table{
+  width:1450px;
+  height: 50px;
+  border-collapse: collapse;
+}
+
+input{
+     width: 20% ;
+     margin: 0%;
+     padding: 0%;
+     
+}
+legend {
+    background-color:lightblue ;
     color: black;
     padding: 2px 10px;
+ 
+
   }
   
- 
- 
- 
+select{
+    width: 20% 
+    
+}
+
+ th 
+{
+    border: 1px solid black;
+    width:150px;
+    height: 15px;
+}
+
+td
+{
+    border: 1px solid black;
+    width:150px;
+    height: 100px;
+}
+
+ul{
+
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+li a{
+background-color:white;
+text-align: center;
+text-decoration: none;
+}
+
+li a:hover{
+background-color: blue;
+}
